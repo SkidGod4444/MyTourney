@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:padding="20dp"
+    tools:context=".Activities.RegisterActivity">
+
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:transitionName="logo_img"
+        android:src="@drawable/mainlogo"/>
+
+    <TextView
+        android:id="@+id/textTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:transitionName="name_txt"
+        android:text="Register"
+        android:textSize="40sp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textColor="@color/white"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-smallcaps"
+        android:transitionName="txt_2nd"
+        android:text="Play/manage tourneys and earn..."/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:hint="Name"
+            app:hintTextColor="@color/white"
+            app:boxBackgroundColor="@color/blackgrey"
+            app:boxStrokeColor="@color/pink"
+            app:boxStrokeErrorColor="@color/main"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:transitionName="name_txt"
+                android:textColor="@color/white"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email"
+            android:hint="Email"
+            app:hintTextColor="@color/white"
+            app:boxBackgroundColor="@color/blackgrey"
+            app:boxStrokeColor="@color/pink"
+            app:boxStrokeErrorColor="@color/main"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:transitionName="username_txt"
+                android:textColor="@color/white"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/phnNumber"
+            android:hint="Phone number"
+            app:hintTextColor="@color/white"
+            app:boxBackgroundColor="@color/blackgrey"
+            app:boxStrokeColor="@color/pink"
+            app:boxStrokeErrorColor="@color/main"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:textColor="@color/white"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwd"
+            android:hint="Create password"
+            app:hintTextColor="@color/white"
+            app:boxBackgroundColor="@color/blackgrey"
+            app:boxStrokeColor="@color/pink"
+            app:boxStrokeErrorColor="@color/main"
+            app:counterEnabled="true"
+            app:counterMaxLength="6"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/pink"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberPassword"
+                android:transitionName="create_pswd"
+                android:textColor="@color/white"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/confpasswd"
+            android:hint="Confirm password"
+            app:hintTextColor="@color/white"
+            app:boxBackgroundColor="@color/blackgrey"
+            app:boxStrokeColor="@color/pink"
+            app:boxStrokeErrorColor="@color/main"
+            app:counterEnabled="true"
+            app:counterMaxLength="6"
+            app:passwordToggleEnabled="true"
+            app:passwordToggleTint="@color/pink"
+            style="@style/Widget.Material3.TextInputLayout.OutlinedBox">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberPassword"
+                android:transitionName="conf_pswd"
+                android:textColor="@color/white"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/continueBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="CONTINUE"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/pink"
+            android:transitionName="first_btn"
+            android:elevation="2dp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:text="Already Registered? SIGN IN"
+            android:fontFamily="sans-serif-black"
+            android:textColor="@color/white"
+            android:backgroundTint="#00000000"
+            android:transitionName="second_btn"
+            android:id="@+id/login_btn"
+            android:elevation="2dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

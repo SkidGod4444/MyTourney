@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_wallet"
+        android:icon="@drawable/wallet"
+        android:title="" />
+    <item
+        android:id="@+id/bottom_sword"
+        android:icon="@drawable/sword"
+        android:title="" />
+    <item
+        android:id="@+id/bottom_tourney"
+        android:icon="@drawable/mainlogo"
+        android:title="" />
+    <item
+        android:id="@+id/bottom_leaderboard"
+        android:icon="@drawable/leaderboard"
+        android:title="" />
+    <item
+        android:id="@+id/bottom_user"
+        android:icon="@drawable/user"
+        android:title="" />
+</menu>

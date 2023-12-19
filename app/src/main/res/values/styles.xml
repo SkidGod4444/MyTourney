@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="CustomSearchViewStyle" parent="Widget.AppCompat.SearchView">
+        <!-- Customize other SearchView attributes if needed -->
+
+        <!-- Define the icon color -->
+        <item name="android:searchIcon">@drawable/search</item>
+    </style>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+</resources>

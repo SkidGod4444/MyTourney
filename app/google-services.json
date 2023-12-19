@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1015034829859",
+    "project_id": "snapshot-official",
+    "storage_bucket": "snapshot-official.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1015034829859:android:69aa59944e0d6dca29e596",
+        "android_client_info": {
+          "package_name": "com.snapshotandroid.mytourney"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1015034829859-fkqdvaisqoni4oud6q26lpanr7eifra5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_4gN-tez-FBA7idOH0G4chfzIIdPJDRQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1015034829859-fkqdvaisqoni4oud6q26lpanr7eifra5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
